@@ -1,0 +1,23 @@
+{
+  "name": "odin-restaraunt-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frobii/odin-restaraunt-page.git"
+  },
+  "author": "francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frobii/odin-restaraunt-page/issues"
+  },
+  "homepage": "https://github.com/Frobii/odin-restaraunt-page#readme",
+  "devDependencies": {
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
