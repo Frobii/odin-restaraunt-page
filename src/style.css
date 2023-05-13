@@ -3,19 +3,39 @@
     src: url(/DancingScript-VariableFont_wght.ttf);
 }
 
+body,html {
+    margin: 0;
+    padding: 0;
+    color:rgba(255, 255, 255, 0.888);
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
  background-image: url(italian\ food.jpg);
  background-attachment: fixed;
  background-size: cover;
- margin: 0px;
 }
 
 #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
 
+.option {
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 4rem;
 }
 
 .header {
     height: 18vh;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.64);
     box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.64);
     display: flex;
@@ -27,7 +47,19 @@ body {
 
 .restaurant-name {
     font-family: Dancing Script;
-    font-size: 10ch;
+    font-size: 12ch;
+    font-style: italic;
     color: rgba(255, 255, 255, 0.888);
     margin: 0 auto;
+}
+
+.home {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 1rem;
+    text-align: center;
 }
