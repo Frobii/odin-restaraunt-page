@@ -47,7 +47,7 @@ body {
 
 .restaurant-name {
     font-family: Dancing Script;
-    font-size: 12ch;
+    font-size: 13ch;
     font-style: italic;
     color: rgba(255, 255, 255, 0.888);
     margin: 0 auto;
@@ -70,7 +70,7 @@ body {
 
 .home-photo {
     background-image: url(/src/young_nonna.jpeg);
-    background-position: -300px 800px;
+    background-position: -300px 810px;
     width: 450px;
     height: 450px;
     border-radius: 50%;
