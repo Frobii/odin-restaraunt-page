@@ -1,3 +1,4 @@
 import './style.css';
+import initializePage from './initialize-page';
 
-console.log('Hello console!');
+initializePage();
