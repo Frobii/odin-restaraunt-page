@@ -3,6 +3,11 @@
     src: url(/DancingScript-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
 body,html {
     margin: 0;
     padding: 0;
@@ -27,11 +32,6 @@ body {
     height: 100vh;
 }
 
-.option {
-    max-width: 700px;
-    background-color: rgba(0, 0, 0, 0.64);
-    padding: 4rem;
-}
 
 .header {
     height: 18vh;
@@ -53,8 +53,40 @@ body {
     margin: 0 auto;
 }
 
-.home {
+.option {
+    max-width: 900px;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 4rem;
+    border: 1px solid rgba(192, 192, 192, 0.535);
+}
+
+.home-photo-container {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    
+}
+
+.home-photo {
+    background-image: url(/src/young_nonna.jpeg);
+    background-position: -300px 800px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.home-text {
     text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .footer {
