@@ -44,5 +44,3 @@ export default function initializePage() {
   loadHome(createMain());
   createFooter();
 }
-
-// export default initializePage();
