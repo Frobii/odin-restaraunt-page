@@ -62,12 +62,13 @@ body {
     font-family: Montserrat;
     font-size: 2rem;
     cursor: pointer;
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
 } 
 
 .nav-button.active {
     border-bottom: solid white 1px;
     transition: border 1s ease;
+    transform: scale(1.2);
 }
 
 .nav-button:hover {
