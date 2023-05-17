@@ -13,9 +13,51 @@ function createHeader() {
   const navigation = document.createElement('div');
   navigation.setAttribute('class', 'navigation');
 
+  const homeButton = document.createElement('div');
+  homeButton.setAttribute('class', 'nav-button');
+  homeButton.innerHTML = 'Home';
+  homeButton.addEventListener('click', (e) => {
+    const elements = document.querySelectorAll('.active');
+
+    elements.forEach((element) => {
+      element.classList.remove('active');
+    });
+
+    e.target.classList.add('active');
+  });
+
+  const menuButton = document.createElement('div');
+  menuButton.setAttribute('class', 'nav-button');
+  menuButton.innerHTML = 'Menu';
+  menuButton.addEventListener('click', (e) => {
+    const elements = document.querySelectorAll('.active');
+
+    elements.forEach((element) => {
+      element.classList.remove('active');
+    });
+
+    e.target.classList.add('active');
+  });
+
+  const contactButton = document.createElement('div');
+  contactButton.setAttribute('class', 'nav-button');
+  contactButton.innerHTML = 'Contact';
+  contactButton.addEventListener('click', (e) => {
+    const elements = document.querySelectorAll('.active');
+
+    elements.forEach((element) => {
+      element.classList.remove('active');
+    });
+
+    e.target.classList.add('active');
+  });
+
   content.appendChild(header);
   header.appendChild(restarauntName);
   header.appendChild(navigation);
+  navigation.appendChild(homeButton);
+  navigation.appendChild(menuButton);
+  navigation.appendChild(contactButton);
 }
 
 function createMain() {
