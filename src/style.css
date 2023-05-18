@@ -116,7 +116,19 @@ body {
     font-family: Montserrat;
     font-size: 1.5rem;
     font-weight: 600;
-    /* font-style: italic; */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 746px;
+}
+
+.menuItem {
+    width: 335px;
+    height: 100px;
 }
 
 .footer {
