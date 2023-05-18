@@ -1,4 +1,5 @@
 import loadHome from './home';
+import loadMenu from './menu';
 
 const content = document.getElementById('content');
 
@@ -24,6 +25,8 @@ function createHeader() {
     });
 
     e.target.classList.add('active');
+
+    loadHome();
   });
 
   const menuButton = document.createElement('div');
@@ -37,6 +40,8 @@ function createHeader() {
     });
 
     e.target.classList.add('active');
+
+    loadMenu();
   });
 
   const contactButton = document.createElement('div');
@@ -83,6 +88,7 @@ function createFooter() {
 
 export default function initializePage() {
   createHeader();
-  loadHome(createMain());
+  createMain();
   createFooter();
+  loadHome();
 }
