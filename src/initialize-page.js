@@ -1,5 +1,6 @@
 import loadHome from './home';
 import loadMenu from './menu';
+import loadContact from './contact';
 
 const content = document.getElementById('content');
 
@@ -56,6 +57,8 @@ function createHeader() {
     });
 
     e.target.classList.add('active');
+
+    loadContact();
   });
 
   content.appendChild(header);
