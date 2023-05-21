@@ -127,8 +127,47 @@ body {
 }
 
 .menuItem {
-    width: 335px;
-    height: 100px;
+    width: 350px;
+    height: 175px;
+}
+
+.menuItem * {
+    background-size: cover;
+    width: 175px;
+    height: 175px;
+    border-radius: 4ch;
+}
+
+.menuImg1 {
+    background-image: url(/src/pastina\ soup.jpeg);
+}
+
+.menuImg2 {
+    background-image: url(/src/minestrone\ soup.jpeg);
+}
+
+.menuImg3 {
+    background-image: url(/src/spaghetti.jpeg);
+}
+
+.menuImg4 {
+    background-image: url(/src/ravioli.jpeg);
+}
+
+.menuImg5 {
+    background-image: url(/src/pizza\ meat.jpeg);
+}
+
+.menuImg6 {
+    background-image: url(/src/pizza\ vegetarian.jpeg);
+}
+
+.menuImg7 {
+    background-image: url(/src/donuts.jpeg);
+}
+
+.menuImg8 {
+    background-image: url(/src/tiramisu.jpeg);
 }
 
 .footer {
