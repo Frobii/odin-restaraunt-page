@@ -16,6 +16,7 @@ function createHeader() {
 
   const homeButton = document.createElement('div');
   homeButton.setAttribute('class', 'nav-button');
+  homeButton.classList.add('active');
   homeButton.innerHTML = 'Home';
   homeButton.addEventListener('click', (e) => {
     const elements = document.querySelectorAll('.active');
