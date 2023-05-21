@@ -127,15 +127,34 @@ body {
 }
 
 .menuItem {
-    width: 350px;
-    height: 175px;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    border-radius: 2ch;
+    padding-left: 16.5px;
+}
+.menuItem:hover {
+    align-items: center;
+    background-color: rgba(171, 159, 159, 0.514);
+    cursor: pointer;
 }
 
-.menuItem * {
+.menuItem *:not(.menuTitle) {
     background-size: cover;
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
     border-radius: 4ch;
+}
+
+.menuTitle {
+    /* text-align: center; */
+    margin-left: 25px;
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: 1.7rem;
+    flex-grow: 1;
+    line-height: 150px;
 }
 
 .menuImg1 {
