@@ -189,6 +189,51 @@ body {
     background-image: url(/src/tiramisu.jpeg);
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 746px;
+    font-family: Montserrat;
+}
+
+.contact-details, .location-details {
+    display: flex;
+}
+
+.phone-number, .address {
+    line-height: 50px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-icon {
+    background-image: url(./phone\ icon.svg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.location-icon {
+    background-image: url(./location\ icon.svg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.map {
+    background-image: url(./antoninas\ location.png);
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    /* overflow: hidden; */
+    background-position: -80px 00px;
+    border-radius: 1ch;
+}
+
 .footer {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.64);
