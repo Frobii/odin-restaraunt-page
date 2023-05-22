@@ -1,6 +1,6 @@
 @font-face {
     font-family: Dancing Script;
-    src: url(/DancingScript-VariableFont_wght.ttf);
+    src: url(/src/DancingScript-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -229,7 +229,6 @@ body {
     background-size: cover;
     height: 450px;
     width: 100%;
-    /* overflow: hidden; */
     background-position: -80px 00px;
     border-radius: 1ch;
 }
